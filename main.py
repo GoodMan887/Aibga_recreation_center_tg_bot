@@ -4,6 +4,7 @@ from aiogram import Bot, Dispatcher
 from app import config
 from app.handlers import start
 
+logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
 
 
